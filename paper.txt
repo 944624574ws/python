@@ -1,0 +1,7 @@
+Current research of aesthetic assessment for images assumes one aesthetic score or one aesthetic label for an image, ignoring the relations of multiple aesthetic-related attributes. However, most images can be described by multiple aesthetic attributes simultaneously. 
+Therefore, in this paper, we prop ose multiple aesthetic attribute prediction and clas-si?cation by mo deling relations among aesthetic attributes
+through Bayesian Networks (BN). In order to realize contin-uous aesthetic attribute prediction, each aesthetic attribute is represented by a three-no de BN, including the discretized aesthetic attribute label, the predicted aesthetic attribute
+score, and the measurement of the aesthetic attribute s-core. In addition, the relations among multiple aesthet-ic attributes are mo deled by another discrete BN, whose structure and conditional probabilities are learned from the
+training data. The attribute measurements are obtained by an existing image-driven regression metho d. With the learned BN, we infer the true discrete label and continuous score for each attribute by combining the relations among
+attributes with the previously obtained measurements. Experiments on the Memorability dataset show the sup eriority of our prop osed approach to current image-driven methods for both multiple continuous aesthetic attribute score pre-diction and multiple discrete aesthetic attribute lab el classi-?cation, indicating the e?ectiveness of the captured relations
+for aesthetic quality assessment.
